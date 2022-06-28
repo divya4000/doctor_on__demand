@@ -1,0 +1,27 @@
+.navigationContainer{
+    height: 10vh;
+    width: 100%;
+    position: relative;
+    color: white;
+    background-color: black;
+}
+
+.navigationContainer > div{
+    width: 20%;
+    position: absolute;
+    right: 10%;
+    top: 30%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.NavBtns{
+    text-decoration: none;
+    color: white;
+}
+
+.NavBtns:hover{
+    border-bottom: 1px solid white;
+    color: white;
+}

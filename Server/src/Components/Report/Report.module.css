@@ -1,0 +1,70 @@
+#outerBox{
+    width: 80%;
+    margin: auto;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    justify-content: space-between;
+    padding-left: 0.8%;
+    padding-bottom: 20px;
+    box-shadow: 0px 0px 5px 3px #E7D9EA;
+    position: relative;
+}
+
+#contentContainer{
+    width:80%;
+    display: flex;
+    margin-top: 10px;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.2rem;
+    color: #11698E;
+    /* border: 1px solid black; */
+}
+
+#imageContainer{
+    width: 20%;
+    /* border: 1px solid black; */
+    position: absolute;
+    top: 0px;  
+    right: 0px;
+    display: flex;
+    justify-content: center;
+}
+
+#imageContainer > img{
+    border-radius: 50%;
+    width: 130px;
+    height: 130px;
+    margin-top: 20px;
+}
+
+.partReport{
+    width: 90%;
+    margin-top: 10px;
+    text-align: center;
+    border-bottom: 2px solid #16C79A;
+    font-family: myFont;
+    color: #19456B;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.header{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.label{
+    color: #19456B;
+    font-family: myFont;
+    font-size: 1.1rem; 
+}
+
+.fields{
+    width: 90%;
+    margin-top: 10px;
+}

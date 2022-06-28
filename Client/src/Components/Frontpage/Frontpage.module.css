@@ -1,0 +1,57 @@
+.coverDiv{
+    height: 90vh;
+    width: 100%;
+    background-image: url('../../assets//Images//doctor.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: white;
+    position: relative;
+}
+
+#displayContainer{
+    height: 60%;
+    width: 50%;
+    /* border: 1px solid white; */
+    position: absolute;
+    top: 15%;   
+    left: 10%;
+}
+
+#title{
+    font-size: 3rem;
+    font-family: myFont;
+}
+
+#subheading{
+    margin-top: 10%;
+    font-size: 1rem;
+    margin-bottom: 3%;
+    color: rgb(222, 222, 222);
+}
+
+.heading{
+    font-size: 2rem;
+}
+
+#btnContainer{
+    margin-top: 10%;
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.btnLogin{
+    font-size: 1.2rem;
+    color: white;
+    text-decoration: none;
+    padding: 20px 40px;
+    color: rgb(222, 222, 222);
+    border: 1px solid white;
+    transition: background-color 0.15s ease-in;
+}
+
+.btnLogin:hover{
+    background-color: #19456B;
+    color: white;
+}

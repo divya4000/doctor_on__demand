@@ -1,0 +1,19 @@
+.outerBox{
+    height: 100vh;
+    width: 100%;
+}
+
+.bk{
+   background-color: grey;
+}
+
+form{ 
+    position: absolute;
+    width: 40%;
+    /* margin: auto;    */
+    top: 20vh;
+    left: 30%;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px 3px #E7D9EA;
+}

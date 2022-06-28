@@ -1,0 +1,37 @@
+h1
+{
+  color:#baa6d0;
+}
+ul.no-bullets
+{
+  list-style-type:none;
+  padding:0;
+  margin:0;
+}
+.card
+{
+  width:250px;
+  margin: auto;
+  box-shadow: 0px 0px 5px 2px #E7D9EA;  
+  border-radius: 10px;
+}
+.card-body
+{
+background-color: #baa6d0;
+border-bottom-left-radius: 10px;
+border-bottom-right-radius: 10px;
+padding: 10px;
+}
+.ss
+{
+  text-align:center;
+  font-size:30px;
+}
+
+.outerBox{
+  width: 80%;
+  margin: auto; 
+}
+.box{
+ font-family: myFont2;
+}

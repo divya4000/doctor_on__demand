@@ -1,0 +1,49 @@
+.container{
+    height: 25vh;
+    width: 30%;
+    border-radius: 10px;
+    margin-right: 3%;
+    margin-bottom: 30px;
+    color: white;
+    transform: scale(1);
+    transition: transform 0.2s ease-in;
+}
+
+.container:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.critical{
+    background-color: #EE2626;
+    box-shadow: 0px 0px 5px 2px #fd9696;
+}
+
+.moderate{
+    background-color: #F9985F;
+    box-shadow: 0px 0px 5px 2px #ffcaac;
+}
+
+.container1{
+    margin: 5% 0px 0px 5%;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    /* border: 1px solid black; */
+}
+
+.container1 > img{
+    border-radius: 50%;
+    height: 100%; 
+    /* border: 1px solid black; */
+}
+
+.name{
+    margin-left: 20px;
+    font-size: 1.5rem;
+    font-family: myFont;
+}
+
+.details{
+    margin: 5px 0px 0px 5%;
+}

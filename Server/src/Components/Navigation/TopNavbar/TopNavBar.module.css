@@ -1,0 +1,55 @@
+#headerContainer{
+    width: 85%;
+    position: fixed;
+    top: 0px;
+    /* right: -100px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 100;
+    background-color: white;
+}
+
+#firstDivContainer{
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: right;
+    padding-right: 20px;
+    align-items: center;
+}
+
+#heading{
+    font-size: 1.7rem;
+    text-align: center;
+    font-weight: bold;
+    color: #19456B;
+    margin-right: 40%;
+}
+
+#lineF{
+    margin-top: 11px;
+    width: 100%;
+    border-bottom: 2px solid #E7D9EA;
+}
+
+#logoutBtn{
+    width: 10%;
+    /* border: 1px solid black; */
+    font-size: 1.1rem;
+    color: #19456B;
+    padding: 5px;
+    border: 2px solid #19456B;
+    border-radius: 10px;
+}
+
+#logoutBtn > img{
+    width: 25%;
+    margin-right: 10px;
+}
+
+#logoutBtn:hover{
+    cursor: pointer;
+    background-color: #19456B;
+    color: white;
+}
